@@ -1,0 +1,12 @@
+---
+title: "Markdown"
+author: "Jatan, Gavin, Fahim"
+date: "2026-11-24"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Clean the data
