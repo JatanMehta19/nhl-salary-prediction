@@ -258,5 +258,5 @@ message("Final dataset: ", nrow(analysis), " rows x ", ncol(analysis), " columns
 print(table(analysis$Pos, useNA = "ifany"))
 
 dir.create("data", showWarnings = FALSE)
-write_csv(analysis, "data/clean_stats.csv")
+write_excel_csv(analysis, "data/clean_stats.csv")
 message("Saved to data/clean_stats.csv")
